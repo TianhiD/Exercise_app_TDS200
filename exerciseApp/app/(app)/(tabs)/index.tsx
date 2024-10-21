@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 30,
     paddingVertical: 20,
     borderRadius: 10,
-    backgroundColor: '#749163',
+    backgroundColor: '#c2c7bf',
 
   },
   photoContainer: {
@@ -64,10 +64,11 @@ const styles = StyleSheet.create({
     margin: 5,
     aspectRatio: 1,
     borderRadius: 10,
+    backgroundColor: '#f0f0f0', 
   },
   photo: {
     width: '100%',
     height: '100%',
-    borderRadius: 10,
+    borderRadius: 10, 
   },
 });

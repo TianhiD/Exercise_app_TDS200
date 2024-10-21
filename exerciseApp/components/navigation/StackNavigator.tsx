@@ -1,9 +1,9 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Tab2Screen from '@/app/(tabs)/Tab2Screen';
-import Page1Screen from '@/app/(tabs)/Page1Screen';
-import Page2Screen from '@/app/(tabs)/Page2Screen';
-import PageWithoutURL from '@/app/(tabs)/PageWithoutURL';
+import Tab2Screen from '@/app/(app)/(tabs)/Tab2Screen';
+import Page1Screen from '@/app/(app)/(tabs)/Page1Screen';
+import Page2Screen from '@/app/(app)/(tabs)/Page2Screen';
+import PageWithoutURL from '@/app/(app)/(tabs)/PageWithoutURL';
 
 type RootStackParamList = {
   Tab2: undefined;
